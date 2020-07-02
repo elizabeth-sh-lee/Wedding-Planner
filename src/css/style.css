@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+}
+
+.navbar {
+	position: fixed;
+	background-color: rgba(206, 179, 179, 0.527);
+	height: 8vh;
+	width: 100%;
+  }
+
+.nav-list {	
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+	font-family: Arial;
+}
+
+a {
+	color: #fff;
+	margin-right: 50px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #9E7676;
+	cursor: pointer;
+}
+
+.parallax {
+	height: 100vh;
+	background-image: url(../img/cake.jpg);
+}
+
+.text {
+	color: #FFFFFF;
+	font-family: Arial;
+	font-style: normal;
+	font-size: 55px;
+}
+
+.form-container {
+	align-items: center;
+	background-color: #CEB4B4;
+	display: flex;
+	height: 100vh;
+	justify-content: center;;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input {
+	border: none;
+	border-radius: 40px;
+	color: #9E7676;
+	height: 20px;
+	width: 100%;
+}
+
+textarea {
+	border: none;
+	border-radius: 20px;
+	color: #9E7676;
+	font-family: Arial;
+	padding: 5px;
+	resize: none;
+	width: 100%;
+}
+
+::placeholder {
+	color: #9E7676;
+}
